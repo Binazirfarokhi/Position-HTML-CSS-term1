@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #988080;
+    height:300vh;
+
+}
+header{
+    background-color: rgb(85, 84, 77);
+    color: white;
+    text-align: center;
+    height: 20vh;
+}
+.header-headline{
+     width: 50%;
+    margin: auto;
+    padding:50px;
+  
+}
+h1{ 
+   
+    border: 2px solid white;
+    font-size: 2.5rem;
+  
+}
+main{
+    max-width: 900px;
+    margin: auto;
+}
+img{
+    width: 40%;
+    height: auto;
+}
+section{
+    border:2px solid black;
+    padding : 2rem;
+    margin: 2rem;
+    background-color: #fff;
+}
