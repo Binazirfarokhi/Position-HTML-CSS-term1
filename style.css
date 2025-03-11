@@ -37,3 +37,43 @@ section{
     margin: 2rem;
     background-color: #fff;
 }
+/* add position properties */
+ #STICKY{ 
+    position: sticky;
+    /* top bottom left right */
+     top:3rem;  
+     z-index: 10;
+
+ } 
+/* #STICKY img{
+    position: sticky;
+    /* top bottom left right */
+    /* top:3rem;  */
+/* } */
+header{
+    position: sticky;
+    /* top bottom left right */
+    top:0; 
+}
+/* if I just give it to the one element: if you get this postion only to the section it belongs it is only for parent container. you have to be careful to which element you are giving to */
+
+/* ========================position relative  */
+#RELATIVE h2{ 
+    position :relative;
+    bottom:4rem;
+    left:4rem;
+}
+#ABSOLUTE {
+    position: relative;
+    height: 300px;
+}
+#ABSOLUTE img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#fixed  h2{
+position: fixed;
+bottom: 0;
+right: 0;
+}
